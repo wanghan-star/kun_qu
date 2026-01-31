@@ -54,5 +54,5 @@
       bindconfirm="sendMessage"
     />
   </view>
-  <t-button class="send" theme="primary" shape="round" disabled="{{ !input }}" bind:tap="sendMessage">发送</t-button>
+  <t-button class="send" theme="primary" shape="round" disabled="{{ !input }}" bind:tap="sendMessage">点击发送</t-button>
 </view>
